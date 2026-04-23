@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.choiceBtn {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.choiceBtn:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.draw {
+  color: gray;
+}
+
+.showBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.showBtn:hover {
+  opacity: 0.8;
+}
+
+.computer {
+  font-size: 16px;
+  margin-top: 10px;
+}

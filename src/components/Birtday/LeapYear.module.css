@@ -1,0 +1,26 @@
+.divBox{
+  margin-bottom: 50px;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: var(--text);
+}
+
+
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center; 
+}
+
+.result {
+  font-size: 16px;
+  white-space: nowrap; 
+}

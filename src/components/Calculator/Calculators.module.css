@@ -1,0 +1,73 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.calcRow {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.inputBox {
+  width: 180px;
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.opBtn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: var(--button);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.activeOp {
+  background: #555; 
+  outline: 2px solid white;
+}
+
+
+.equalBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--button);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.equalBtn:hover {
+  transform: scale(1.1);
+}
+
+
+.resultCapsule {
+  min-width: 130px;
+  height: 42px;
+  background-color: var(--accent); 
+  color: var(--text);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 500;
+}

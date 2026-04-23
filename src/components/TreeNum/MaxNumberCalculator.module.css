@@ -1,0 +1,63 @@
+.maxNumContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.maxTitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: var(--text);
+}
+
+.inputsRow {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+
+.maxInput {
+  background-color: var(--accent); 
+  color: var(--text);
+  border: none;
+  border-bottom: 3px solid rgba(0,0,0,0.1);
+  padding: 15px 20px;
+  border-radius: 30px;
+  width: 170px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: transform 0.2s;
+}
+
+.maxInput:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.maxInput::placeholder {
+  color: var(--text);
+  opacity: 0.4;
+}
+
+.maxResultText {
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.maxValue {
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.maxInput::-webkit-outer-spin-button,
+.maxInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

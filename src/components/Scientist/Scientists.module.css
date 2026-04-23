@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--accent);
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: var(--text);
+}
+
+.btnGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.blackBtn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px; 
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.reset {
+  grid-column: span 2;
+  background: #444;
+}
